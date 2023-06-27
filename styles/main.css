@@ -186,7 +186,7 @@ button {
   padding: 0;
 }
 .contactForm__rightContainer div #countryCodeImg {
-  background-image: url(../../icons/palestine.png);
+  background-image: url(../icons/palestine.png);
   background-color: #fff;
   background-position: center;
   background-size: 50%;
