@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>MRKZ.NET | Contact Form</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="contactForm">
+            <div class="contactForm__rightContainer">
+                <label for="email">أدخل بريدك الإلكتروني</label>
+                <input placeholder="مثال: kamal.alahmady@gmail.com" type="text" name="email" id="email"
+                    class="contactForm__rightContainer__email">
+                <label for="fullName">أدخل إسمك</label>
+                <input placeholder="كمال الأحمدي" type="text" name="fullName" id="fullName"
+                    class="contactForm__rightContainer__fullName">
+                <label for="countryCodeImg">رقم الهاتف</label>
+                <div>
+
+                    <input placeholder="2002473849" type="text" name="phone" id="phone"
+                        class="contactForm__rightContainer__phone">
+
+                    <select name="countryCode" id="countryCode" class="contactForm__rightContainer__countryCode">
+                        <option value="966">
+                            +966
+                        </option>
+                    </select>
+                    <div name="countryCodeImg" id="countryCodeImg" class="contactForm__rightContainer__countryCodeImg">
+                        <!-- <img alt="" width="24" height="24" style="display: block;"> -->
+
+                    </div>
+
+
+                </div>
+
+                <label for="websiteLink">عنوان الموقع الإلكتروني</label>
+                <input placeholder="mrkz.net" type="text" name="websiteLink" id="websiteLink"
+                    class="contactForm__rightContainer__websiteLink">
+            </div>
+
+            <div class="contactForm__leftContainer">
+                <label for="title">عنوان الموضوع</label>
+                <input placeholder="أريد التسويق لمنتجي عبر المحتوى..." type="text" name="title" id="title"
+                    class="contactForm__leftContainer__title">
+                <label for="message">الرسالة</label>
+                <textarea placeholder="أكتب تفاصيل الموضوع المطلوب..." cols="50" rows="10" name="message" id="message"
+                    class="contactForm__leftContainer__message"></textarea>
+
+                <a href="#" class="contactForm__leftContainer__sendMessage">إرسال الطلب</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
